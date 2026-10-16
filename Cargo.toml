@@ -1,6 +1,11 @@
 [package]
 description = "Native configurator for the Cosmic Byte Blitz controller"
 license = "MIT"
+readme = "README"
+repository = "https://github.com/varun-r-mallya/blitz-config"
+keywords = ["gamepad", "controller", "hid", "cosmic-byte", "egui"]
+categories = ["hardware-support", "gui"]
+include = ["src/**", "examples/**", "Cargo.toml", "Cargo.lock", "README", "LICENSE", "70-cosmic-byte-blitz.rules"]
 name = "blitz-config"
 version = "0.1.0"
 edition = "2024"
