@@ -1,0 +1,3 @@
+# Cosmic Byte Blitz (wired 0281:0080, 2.4 GHz dongle 0281:0112) — let the logged-in user's browser use WebHID.
+KERNEL=="hidraw*", ATTRS{idVendor}=="0281", ATTRS{idProduct}=="0080", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="0281", ATTRS{idProduct}=="0112", MODE="0660", TAG+="uaccess"
